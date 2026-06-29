@@ -2,16 +2,16 @@
 #
 #   brew install dsaad68/tap/ripple
 #
-# This is a TEMPLATE: the release workflow (.github/workflows/release.yml) substitutes 0.2.4,
-# https://github.com/dsaad68/ripple/releases/download/0.2.4/ripple-0.2.4-macos-arm64.tar.gz, and 9336d657dc912e3dd15810e0bf925f4fcaba70158936681e3cbb9be3fb82573a and pushes the result to the tap on each release. It installs a prebuilt
+# This is a TEMPLATE: the release workflow (.github/workflows/release.yml) substitutes 0.2.5,
+# https://github.com/dsaad68/ripple/releases/download/0.2.5/ripple-0.2.5-macos-arm64.tar.gz, and 3b3603aae114482eb1268008d41ccd5cc575a4acd60ddd4e073b4db1588a20a0 and pushes the result to the tap on each release. It installs a prebuilt
 # Apple Silicon binary from the GitHub Release artifact -- no Xcode needed on the user's machine.
 # Edit this template in the source monorepo (page/ripple/.github/homebrew/ripple.rb), not the tap.
 class Ripple < Formula
   desc "Experimental batteries-included agent with MLX and Apple Containers, pure Swift"
   homepage "https://github.com/dsaad68/ripple"
-  version "0.2.4"
-  url "https://github.com/dsaad68/ripple/releases/download/0.2.4/ripple-0.2.4-macos-arm64.tar.gz"
-  sha256 "9336d657dc912e3dd15810e0bf925f4fcaba70158936681e3cbb9be3fb82573a"
+  version "0.2.5"
+  url "https://github.com/dsaad68/ripple/releases/download/0.2.5/ripple-0.2.5-macos-arm64.tar.gz"
+  sha256 "3b3603aae114482eb1268008d41ccd5cc575a4acd60ddd4e073b4db1588a20a0"
   license "MIT"
 
   depends_on arch: :arm64
