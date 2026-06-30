@@ -2,16 +2,16 @@
 #
 #   brew install --cask dsaad68/tap/mispher
 #
-# This is a TEMPLATE: the release workflow (.github/workflows/release.yml) substitutes 1.0.3,
-# https://github.com/dsaad68/mispher/releases/download/1.0.3/Mispher.dmg, and c934fd61e149d9b29ec3a19f709779cc3ecd0c17e750f6c34a63687caab6aaa8 and pushes the result to the tap on each release. It installs the prebuilt,
+# This is a TEMPLATE: the release workflow (.github/workflows/release.yml) substitutes 1.0.4,
+# https://github.com/dsaad68/mispher/releases/download/1.0.4/Mispher.dmg, and d64287e5e6da042a5879292d71339273dc7b933d871c13a3073892a91b5890ae and pushes the result to the tap on each release. It installs the prebuilt,
 # Developer ID-signed + notarized Mispher.dmg from the GitHub Release -- no Xcode needed on the user's
 # machine. Edit this template in the source monorepo (page/mispher/.github/homebrew/mispher.rb), not
 # the tap.
 cask "mispher" do
-  version "1.0.3"
-  sha256 "c934fd61e149d9b29ec3a19f709779cc3ecd0c17e750f6c34a63687caab6aaa8"
+  version "1.0.4"
+  sha256 "d64287e5e6da042a5879292d71339273dc7b933d871c13a3073892a91b5890ae"
 
-  url "https://github.com/dsaad68/mispher/releases/download/1.0.3/Mispher.dmg"
+  url "https://github.com/dsaad68/mispher/releases/download/1.0.4/Mispher.dmg"
   name "Mispher"
   desc "On-device voice-to-text and AI agent for macOS"
   homepage "https://github.com/dsaad68/mispher"
