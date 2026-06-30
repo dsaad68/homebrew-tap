@@ -23,7 +23,7 @@ cask "mispher" do
 
   # macOS 26+ (Tahoe), Apple Silicon. The app needs the global-hotkey event tap, Accessibility text
   # insertion, and Apple Events automation, so it ships outside the App Store as a notarized DMG.
-  depends_on macos: ">= :tahoe"
+  depends_on macos: :tahoe
   depends_on arch: :arm64
 
   app "Mispher.app"
